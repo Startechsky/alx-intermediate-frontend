@@ -1,0 +1,4 @@
+Steps For Sass Installation
+
+-   Create a preferred directory
+-   install through the terminal with this command line: npm install sass -v 3.7.4

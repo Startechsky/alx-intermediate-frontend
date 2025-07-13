@@ -1,0 +1,24 @@
+// @mixin spacing($margin: 0px) {
+//   margin: 0px $margin;
+// }
+
+// body{
+//     @include spacing(10px);
+
+//     div{
+//         @include spacing(15px);
+//     }
+// }
+
+@mixin newSpacing($margin:0px) {
+   margin-left:$margin;
+   margin-right:$margin;
+}
+
+body{
+    @include newSpacing(10px);
+}
+
+ div{
+        @include newSpacing(15px);
+    }
